@@ -27,6 +27,7 @@ main div{
 }
 main button{
     padding: 10px 30px;
+    
 }
 section{
     display: flex;
@@ -49,8 +50,8 @@ section p{
 }
 footer{
     text-align: center;
-    background-color: rgb(232, 224, 224);
 }
 footer button{
     padding: 10px 30px;
+
 }
