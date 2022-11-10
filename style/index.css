@@ -15,8 +15,9 @@ header nav a {
 }
 main{
     background-image: url('https://picsum.photos/700/500');
-    width: 700px;
-    height: 500px;
+    background-size: cover;
+    width: 70vw;
+    height: 50vw;
     margin: auto auto;
     display: flex;
     align-items: center;
@@ -34,7 +35,7 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
     margin:1% auto;
-    width: 750px;
+    width: 75vw;
     
 }
 section div{
@@ -55,3 +56,33 @@ footer button{
     padding: 10px 30px;
 
 }
+
+
+@media (max-width: 768px) { 
+    header{
+        flex-direction: column ;
+        justify-content: space-between ;
+        align-items: center;
+        width: 50vw;
+    }
+    
+        header nav a {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    main{
+        width: 90vw;
+        height: 56vw;
+    }
+    section div{
+        width: 35vw;
+
+    }
+ }
+
+
+@media (max-width: 992px) { ... }
+
+
+@media (max-width: 1200px) { ... }
