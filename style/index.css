@@ -28,6 +28,7 @@ main div{
 }
 main button{
     padding: 10px 30px;
+    cursor:grab;
     
 }
 section{
@@ -54,6 +55,7 @@ footer{
 }
 footer button{
     padding: 10px 30px;
+    cursor: grab;
 
 }
 
@@ -71,18 +73,14 @@ footer button{
         text-align: center;
         margin: 0 auto;
     }
+    h2{
+        text-align: center;
+    }
     main{
         width: 90vw;
         height: 56vw;
     }
     section div{
         width: 35vw;
-
     }
  }
-
-
-@media (max-width: 992px) { ... }
-
-
-@media (max-width: 1200px) { ... }
